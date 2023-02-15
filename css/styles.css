@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.bgImg{
+  background-image: url("../assets/Random\ Dice.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100vh;
+}
+
+.box1{
+  border-style: solid;
+  border-color: blueviolet;
+  color: white;
+}
