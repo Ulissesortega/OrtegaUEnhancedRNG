@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+.tf{ 
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: orangered; 
+  color: white;
+  border-radius: 20px;
+  width: 800px;  
+}
 
 .bgImg{
   background-image: url("../assets/Random\ Dice.jpg");
@@ -14,8 +24,43 @@
   min-width: 100vh;
 }
 
-.box1{
-  border-style: solid;
-  border-color: blueviolet;
-  color: white;
+.container{
+  max-width: 960px;  
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 3rem;  
 }
+
+.item{
+  background: steelblue;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  border: skyblue 1px solid;
+  text-align: center;
+  border-radius: 20px;  
+}
+
+.bgcolor{
+  background-color: chartreuse;
+  color: darkmagenta;
+  font-size: 30px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.tf1{
+    color: Lime;
+    background-color: black;    
+}
+
+.tf2{
+  color: Lime;
+  background-color: black;    
+}
+
+
+
+
+
